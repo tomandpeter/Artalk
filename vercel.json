@@ -1,8 +1,29 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/api/v2/(.*)", "dest": "/api/v2/$1" },
-    { "src": "/list", "dest": "/list" },
-    { "src": "/comments", "dest": "/comments" }
+    { "src": "/api/v2/comments", "dest": "/api/v2/comments" },
+    { "src": "/api/v2/comments/(.*)", "dest": "/api/v2/comments/$1" },
+    { "src": "/api/v2/conf", "dest": "/api/v2/conf" },
+    { "src": "/api/v2/domain", "dest": "/api/v2/domain" },
+    { "src": "/api/v2/notifies", "dest": "/api/v2/notifies" },
+    { "src": "/api/v2/notifies/(.*)", "dest": "/api/v2/notifies/$1" },
+    { "src": "/api/v2/pages", "dest": "/api/v2/pages" },
+    { "src": "/api/v2/pages/(.*)", "dest": "/api/v2/pages/$1" },
+    { "src": "/api/v2/send_email", "dest": "/api/v2/send_email" },
+    { "src": "/api/v2/settings", "dest": "/api/v2/settings" },
+    { "src": "/api/v2/settings/(.*)", "dest": "/api/v2/settings/$1" },
+    { "src": "/api/v2/sites", "dest": "/api/v2/sites" },
+    { "src": "/api/v2/sites/(.*)", "dest": "/api/v2/sites/$1" },
+    { "src": "/api/v2/stats/(.*)", "dest": "/api/v2/stats/$1" },
+    { "src": "/api/v2/transfer/(.*)", "dest": "/api/v2/transfer/$1" },
+    { "src": "/api/v2/upload", "dest": "/api/v2/upload" },
+    { "src": "/api/v2/user", "dest": "/api/v2/user" },
+    { "src": "/api/v2/user/(.*)", "dest": "/api/v2/user/$1" },
+    { "src": "/api/v2/users", "dest": "/api/v2/users" },
+    { "src": "/api/v2/users/(.*)", "dest": "/api/v2/users/$1" },
+    { "src": "/api/v2/version", "dest": "/api/v2/version" },
+    { "src": "/api/v2/votes/(.*)", "dest": "/api/v2/votes/$1" },
+    { "src": "/list", "dest": "/api/v2/comments" },
+    { "src": "/comments", "dest": "/api/v2/comments" }
   ]
 }
