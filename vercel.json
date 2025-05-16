@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/v2/(.*)", "dest": "/api/v2/$1" },
+    { "src": "/list", "dest": "/list" },
+    { "src": "/comments", "dest": "/comments" }
+  ]
+}
