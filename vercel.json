@@ -1,10 +1,9 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/api/v2/conf", "dest": "/api/v2/conf" },
-    { "src": "/api/v2/comments", "dest": "/api/v2/comments" },
-    { "src": "/api/v2/comments/(.*)", "dest": "/api/v2/comments/$1" },
-    { "src": "/list", "dest": "/api/v2/comments" },
-    { "src": "/comments", "dest": "/api/v2/comments" }
+    { "src": "/conf", "dest": "/conf" },
+    { "src": "/comments", "dest": "/comments" },
+    { "src": "/comments/(.*)", "dest": "/comments/$1" },
+    { "src": "/list", "dest": "/comments" }
   ]
 }
