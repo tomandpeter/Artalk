@@ -4,7 +4,6 @@
     { "src": "/api/v2/conf", "dest": "/api/v2/conf" },
     { "src": "/api/v2/comments", "dest": "/api/v2/comments" },
     { "src": "/api/v2/comments/(.*)", "dest": "/api/v2/comments/$1" },
-    // ... other /api/v2 routes ...
     { "src": "/list", "dest": "/api/v2/comments" },
     { "src": "/comments", "dest": "/api/v2/comments" }
   ]
